@@ -49,7 +49,7 @@ $ npm run clean-setup-db
 
 The scripts create the tables for blog posts, users, blog categories and blog tags.
 
-## Frontend | my-blog-website
+## frontend
 
 This is a blog website that has a frontend for navigating blog posts and a cms dashboard for viewing blog posts, users, blog categories and blog tags.
 
@@ -57,7 +57,7 @@ You can then navigate to the [homepage](http://localhost:3000) at `http://localh
 
 As for the [dashboard](http://localhost:3000/dashboard/blog) which can be accessed at `http://localhost:3000/dashboard/blog` you can view all four pages from the side nav, which are the blog posts, user, blog categories and blog tags pages. Each page has a table that shows all the records kept in the DB. Delete works on all the pages, except for records blog categories attached to blog posts. View only works on the blog posts page, in fact, the full CRUD works on the blog posts page, you can view/update/delete and create blog posts. View will take you to the page where you can view all details and update or delete. The plus sign in the corner of the table will allow you to create a new blog post. Blogs updated or created can be viewed from the frontend later at the [homepage](http://localhost:3000) at `http://localhost:3000`.
 
-## Backend | my-blog-website-nest
+## backend
 
 This is the NestJS/Fastify backend server for the blog website.
 

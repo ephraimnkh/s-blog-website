@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "install-all": "npm install && npm --prefix ./frontend install && npm --prefix ./backend install",
-    "clean-setup-db": "npm --prefix ./backend run clean-setup-db",
+    "clean-setup-db": "npm --prefix ./backend run clean-db-setup",
     "setup-db": "npm --prefix ./backend run setup-db",
     "frontend:dev": "npm --prefix ./frontend run dev",
     "backend:dev": "npm --prefix ./backend run start:dev",
