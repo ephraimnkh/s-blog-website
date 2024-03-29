@@ -49,6 +49,12 @@ $ npm run clean-setup-db
 
 The scripts create the tables for blog posts, users, blog categories and blog tags.
 
+Now to run the project use:
+
+```
+$ npm run dev
+```
+
 ## frontend
 
 This is a blog website that has a frontend for navigating blog posts and a cms dashboard for viewing blog posts, users, blog categories and blog tags.
