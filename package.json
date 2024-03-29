@@ -7,7 +7,9 @@
     "install-all": "npm install && npm --prefix ./frontend install && npm --prefix ./backend install",
     "clean-setup-db": "npm --prefix ./backend run clean-setup-db",
     "setup-db": "npm --prefix ./backend run setup-db",
-    "dev": "npm --prefix ./frontend run dev && npm --prefix ./backend run start:dev"
+    "frontend:dev": "npm --prefix ./frontend run dev",
+    "backend:dev": "npm --prefix ./backend run start:dev",
+    "dev": "concurrently \"npm:frontend:dev\" \"npm:backend:dev\""
   },
   "author": "Ephraim Nkhoma",
   "license": "ISC",
