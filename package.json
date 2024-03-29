@@ -1,0 +1,17 @@
+{
+  "name": "s-blog-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "install-all": "npm install && npm --prefix ./my-blog-website install && npm --prefix ./my-blog-website-nest install",
+    "clean-setup-db": "npm --prefix ./my-blog-website-nest run clean-setup-db",
+    "setup-db": "npm --prefix ./my-blog-website-nest run setup-db",
+    "dev": "npm --prefix ./my-blog-website run dev && npm --prefix ./my-blog-website-nest run start:dev"
+  },
+  "author": "Ephraim Nkhoma",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
